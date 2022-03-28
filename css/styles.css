@@ -7,9 +7,6 @@ body{
 h1{
     text-align: center;
 }
-.title{
-    text-align: center;
-}
 .glass-panel{
     color: #fff;
     margin: 40px auto;
@@ -19,18 +16,7 @@ h1{
     padding: 32px;
     backdrop-filter: blur(10px);
 }
-.flex-container{
-    display: flex;
-}
-.flex-child{
-    flex:1;
-    margin: 50px;
-}
-.flex-child:first-child{
-    margin-right: 50px;
-}
-.flex-container .flex-child{
-    display: inline-block;
+.glass-box{
     padding: 24px 32px;
     border: 0;
     text-decoration: none;
@@ -43,4 +29,7 @@ h1{
     letter-spacing: 2px;
     text-transform: uppercase;
 
+}
+.white-text{
+    color: rgb(255,255,255);
 }
