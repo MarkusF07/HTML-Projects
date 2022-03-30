@@ -2,7 +2,7 @@ html{
     font-family: 'Roboto', sans-serif;
 } 
 body{
-    background: rgb(53, 53, 53);
+    background: url(https://images.unsplash.com/photo-1640906152676-dace6710d24b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80);
 }
 h1{
     text-align: center;
@@ -32,4 +32,25 @@ h1{
 }
 .dropdown-item{
     color: #FFFFFF8C;
+}
+/*.no-border-bottom{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.no-border-top{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}*/
+.container-fluid{
+    border-radius: 0px;
+}
+.container-fluid:first-child{
+    border-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px; 
+}
+.container-fluid:last-child{
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
 }
