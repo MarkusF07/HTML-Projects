@@ -38,22 +38,22 @@ h1{
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
 }*/
-.content .container-fluid{
+#main-content .container-fluid{
     border-radius: 0px;
 }
-.content .container-fluid:first-child{
+#main-content .container-fluid:first-child{
     border-radius: 15px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     margin-bottom: 0;
 }
-.content .container-fluid:last-child{
+#main-content .container-fluid:last-child{
     border-radius: 15px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     margin-top: 0;
 }
-.content .container-fluid:not(:first-child):not(:last-child){
+#main-content .container-fluid:not(:first-child):not(:last-child){
     margin-top: 0;
     margin-bottom: 0;
 }
